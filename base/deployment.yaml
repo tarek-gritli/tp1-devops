@@ -12,5 +12,5 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx:doesnotexist
+          image: nginx:1.25
           ports: [{containerPort: 80}]
